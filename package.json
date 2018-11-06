@@ -1,0 +1,24 @@
+{
+  "name": "graphcool-relay-subscriptions",
+  "version": "1.0.0",
+  "description": "Relay subscriptions for Graph.cool",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaciakmaciak/graphcool-relay-subscriptions.git"
+  },
+  "keywords": [
+    "graphcool",
+    "relay",
+    "subscriptions"
+  ],
+  "author": "Katarina Anton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaciakmaciak/graphcool-relay-subscriptions/issues"
+  },
+  "homepage": "https://github.com/kaciakmaciak/graphcool-relay-subscriptions#readme"
+}
