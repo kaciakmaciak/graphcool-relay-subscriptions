@@ -4,6 +4,8 @@
   "description": "Relay subscriptions for Graph.cool",
   "main": "dist/index.js",
   "scripts": {
+    "build": "babel src -d dist",
+    "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/kaciakmaciak/graphcool-relay-subscriptions/issues"
   },
-  "homepage": "https://github.com/kaciakmaciak/graphcool-relay-subscriptions#readme"
+  "homepage": "https://github.com/kaciakmaciak/graphcool-relay-subscriptions#readme",
+  "devDependencies": {
+    "@babel/cli": "7.1.2",
+    "@babel/core": "7.1.2",
+    "@babel/preset-env": "7.1.0"
+  }
 }
