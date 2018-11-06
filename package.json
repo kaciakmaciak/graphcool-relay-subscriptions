@@ -23,9 +23,18 @@
     "url": "https://github.com/kaciakmaciak/graphcool-relay-subscriptions/issues"
   },
   "homepage": "https://github.com/kaciakmaciak/graphcool-relay-subscriptions#readme",
+  "bin": {
+    "get-schema": "./bin/get-schema.js"
+  },
   "devDependencies": {
     "@babel/cli": "7.1.2",
     "@babel/core": "7.1.2",
     "@babel/preset-env": "7.1.0"
+  },
+  "dependencies": {
+    "chalk": "2.4.1",
+    "graphql": "14.0.2",
+    "minimist": "1.2.0",
+    "node-fetch": "2.2.1"
   }
 }
