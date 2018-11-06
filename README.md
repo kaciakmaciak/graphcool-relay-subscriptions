@@ -36,6 +36,24 @@ const network = new Network.create(
 )
 ```
 
+Then you can do:
+
+```graphql
+subscription CreatePostSubscription {
+    Post(filter: {
+        mutation_in: [CREATED]
+    }) {
+        edge {
+            node {
+                id
+                description
+                imageUrl
+            }
+        }
+    }
+}
+```
+
 #### Download schema
 
 In your `package.json`:

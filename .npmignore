@@ -3,3 +3,5 @@
 /.git
 .gitignore
 /node_modules
+.babelrc
+/src
