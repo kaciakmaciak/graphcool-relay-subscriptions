@@ -42,14 +42,13 @@ In your `package.json`:
 
 ```json
   "scripts": {
-     ...
      "get-schema": "get-schema <graphcool-api-enpoint-url> [--output=<file-name>]"
   }
 ```
 
 Then run:
 
-`npm run get-schema` do download schema to specified file (or `schema.graphql` by default).
+`npm run get-schema` to download schema to specified file (or `schema.graphql` by default).
 
 ### Licence
 
